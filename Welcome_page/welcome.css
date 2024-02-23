@@ -1,0 +1,99 @@
+body{
+    background-image: url("Railway 4k Ultra HD Wallpaper and Background Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    color: black;
+    background-color: white;
+}
+.text{
+    color: yellow;
+    height: 100px;
+    width:100%;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: rgb(12, 0, 0);
+    opacity: 70%;
+    margin-top: 250px;
+    font-size: 100px;
+}
+form{
+    background-color: yellow;
+    opacity: 95%;
+    border-color: red;
+    visibility:hidden;
+    margin-left: 500px;
+    margin-top: 30px;
+    padding-left: 30px;
+    height:240px;
+    width: 350px;
+    border-radius: 10px;
+}
+#station_name{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 450px;
+    border-color: transparent;
+    opacity: 70%;
+    padding-left:150px;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    width:500px;
+}
+button{
+    position: relative;
+    margin-left: 15px;
+    height: 50px;
+    width:100px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(83, 83, 177);
+    border-radius: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    opacity: 50%;
+    overflow: hidden;
+}
+
+.navbar a {
+    margin-right: 60px;
+    float: left;
+    display: block;
+    color: white;
+    opacity: 100%;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(245, 243, 243);
+}
+
+.nav-links li {
+    border-radius: 5px;
+    list-style: none;
+    display: inline;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links li {
+        display: block;
+        float: none;
+    }
+    .navbar a {
+        display: block;
+        float: none;
+    }
+}
