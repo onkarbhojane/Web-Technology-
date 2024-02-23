@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Feed</title>
 
+    <link rel="stylesheet" href="webcam.css">
+</head>
+<body>
+    <div class="video-wrap">
+        <div id="row1">
+            <video class="video-stream" id="video" playsinline autoplay></video>
+            <video class="video-stream" id="video1" playsinline autoplay></video>
+        </div>
+        <div id="row2">
+            <video class="video-stream" id="video2" playsinline autoplay></video>
+            <video class="video-stream" id="video3" playsinline autoplay></video>
+        </div>
+    </div>
+    
+    <canvas id="canvas" width="640" height="48"></canvas>
+
+    <script src="webcam.js"></script>
+</body>
+</html>
